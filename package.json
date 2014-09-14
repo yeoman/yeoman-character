@@ -1,0 +1,41 @@
+{
+  "name": "yeoman-character",
+  "version": "0.0.0",
+  "description": "The Yeoman character in your CLI. Like wat.",
+  "license": "MIT",
+  "repository": "yeoman/yeoman-character",
+  "author": "Yeoman team",
+  "bin": {
+    "yeoman-character": "cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "yeoman.txt"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "bin",
+    "yeoman",
+    "character",
+    "figure",
+    "logo",
+    "color",
+    "ansi",
+    "ascii",
+    "art"
+  ],
+  "dependencies": {
+    "supports-color": "^1.1.0"
+  },
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
