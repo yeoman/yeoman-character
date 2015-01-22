@@ -15,5 +15,5 @@ var fallback = [
 	'´   `  |° ´ Y `'
 ].join('\n');
 
-module.exports = supportsColor ?
+module.exports = supportsColor && process.platform !== 'win32' ?
 	fs.readFileSync(path.join(__dirname, 'yeoman.txt'), 'utf8') : fallback;
