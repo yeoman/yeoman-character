@@ -4,10 +4,8 @@
   "description": "The Yeoman character in your CLI. Like wat.",
   "license": "MIT",
   "repository": "yeoman/yeoman-character",
-  "author": "Yeoman team",
-  "bin": {
-    "yeoman-character": "cli.js"
-  },
+  "author": "Yeoman",
+  "bin": "cli.js",
   "engines": {
     "node": ">=0.10.0"
   },
