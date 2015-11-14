@@ -31,7 +31,7 @@
     "art"
   ],
   "dependencies": {
-    "supports-color": "^1.1.0"
+    "supports-color": "^3.1.2"
   },
   "devDependencies": {
     "ava": "0.0.4"
