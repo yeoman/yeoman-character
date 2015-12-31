@@ -10,7 +10,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "ava"
   },
   "files": [
     "index.js",
@@ -34,6 +34,6 @@
     "supports-color": "^3.1.2"
   },
   "devDependencies": {
-    "ava": "0.0.4"
+    "ava": "*"
   }
 }
