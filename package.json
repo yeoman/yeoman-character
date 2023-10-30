@@ -1,6 +1,6 @@
 {
 	"name": "yeoman-character",
-	"version": "1.1.0",
+	"version": "2.0.0",
 	"description": "The Yeoman character in your CLI. Like wat.",
 	"license": "MIT",
 	"repository": "yeoman/yeoman-character",
