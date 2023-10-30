@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-'use strict';
-var yeomanCharacter = require('./');
-console.log('\n' + yeomanCharacter);
+import yeomanCharacter from './index.js';
+
+console.log(`\n${yeomanCharacter}`);

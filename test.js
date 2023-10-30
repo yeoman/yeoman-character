@@ -1,6 +1,6 @@
 import test from 'ava';
-import x from './';
+import yeomanCharacter from './index.js';
 
-test(t => {
-	t.true(x.length > 0);
+test('main', t => {
+	t.true(yeomanCharacter.length > 0);
 });

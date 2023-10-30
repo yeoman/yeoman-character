@@ -1,9 +1,12 @@
-'use strict';
-var path = require('path');
-var fs = require('fs');
-var supportsColor = require('supports-color');
+import process from 'node:process';
+import path from 'node:path';
+import fs from 'node:fs';
+import {fileURLToPath} from 'node:url';
+import supportsColor from 'supports-color';
 
-var fallback = [
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+const fallback = [
 	'    _-----_',
 	'   |       |',
 	'   |--(o)--|',
@@ -12,8 +15,11 @@ var fallback = [
 	'   /___A___\\',
 	'    |  ~  |',
 	'  __\'.___.\'__',
-	'´   `  |° ´ Y `'
+	'´   `  |° ´ Y `',
 ].join('\n');
 
-module.exports = supportsColor && process.platform !== 'win32' ?
-	fs.readFileSync(path.join(__dirname, 'yeoman.txt'), 'utf8') : fallback;
+const yeomanCharacter = supportsColor && process.platform !== 'win32'
+	? fs.readFileSync(path.join(__dirname, 'yeoman.txt'), 'utf8')
+	: fallback;
+
+export default yeomanCharacter;

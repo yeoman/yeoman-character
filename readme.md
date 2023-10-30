@@ -1,29 +1,24 @@
-# yeoman-character [![Build Status](https://travis-ci.org/yeoman/yeoman-character.svg?branch=master)](https://travis-ci.org/yeoman/yeoman-character)
+# yeoman-character
 
 > The Yeoman character in your CLI. Like wat.
 
 ![](screenshot.png)
 
-
 ## Usage
 
 ```sh
-$ npm install --save yeoman-character
+npm install yeoman-character
 ```
 
 ```js
-console.log(require('yeoman-character'));
-```
+import yeomanCharacter from 'yeoman-character';
 
+console.log(yeomanCharacter);
+```
 
 ## CLI
 
 ```sh
-$ npm install --global yeoman-character
-$ yeoman-character
+npm install --global yeoman-character
+yeoman-character
 ```
-
-
-## License
-
-MIT © Yeoman team
